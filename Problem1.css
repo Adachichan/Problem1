@@ -77,4 +77,19 @@ footer{
 /* 画面幅が768px以下の場合に適用される設定 */
 @media screen and (max-width:768px){
 
+  .main-visual{
+    width: 100%;
+    margin:50px 0;
+    display: block; /* 縦並びに戻す */
+  }
+
+  .main-visual-contents{
+    width: 90%;
+    margin: 0 auto 20px;
+  }
+
+  .main-visual-contents:last-child{
+    margin: 0 auto;
+  }
+
 }
